@@ -2016,88 +2016,94 @@ body {
     opacity: 0;
     animation: firework-effect 6s ease-out forwards infinite; /* Animación de fuegos artificiales */
     text-transform: uppercase; /* Mayúsculas como pediste */
+    white-space: pre; /* Asegura que los espacios se respeten */
 }
 
 /* Ajusta los retrasos y posiciones para cada letra para el efecto curvado y de fuegos artificiales */
+/* Primera parte: "TE AMO" */
 .fireworks-text span:nth-child(1) { /* T */
     animation-delay: 0.2s;
-    transform: translate(-20vmin, 10vmin) rotate(-10deg);
+    transform: translate(-25vmin, 5vmin) rotate(-8deg);
 }
 .fireworks-text span:nth-child(2) { /* E */
-    animation-delay: 0.4s;
-    transform: translate(-15vmin, 8vmin) rotate(-5deg);
+    animation-delay: 0.3s;
+    transform: translate(-20vmin, 3vmin) rotate(-4deg);
 }
 .fireworks-text span:nth-child(3) { /* &nbsp; */
-    animation-delay: 0.6s;
-    transform: translate(-10vmin, 6vmin) rotate(0deg);
+    animation-delay: 0.4s;
+    transform: translate(-16vmin, 2vmin) rotate(0deg);
 }
 .fireworks-text span:nth-child(4) { /* A */
-    animation-delay: 0.8s;
-    transform: translate(-5vmin, 5vmin) rotate(5deg);
+    animation-delay: 0.5s;
+    transform: translate(-11vmin, 1vmin) rotate(2deg);
 }
 .fireworks-text span:nth-child(5) { /* M */
-    animation-delay: 1.0s;
-    transform: translate(0vmin, 4vmin) rotate(0deg);
+    animation-delay: 0.6s;
+    transform: translate(-5vmin, 0vmin) rotate(0deg);
 }
 .fireworks-text span:nth-child(6) { /* O */
-    animation-delay: 1.2s;
-    transform: translate(5vmin, 5vmin) rotate(-5deg);
+    animation-delay: 0.7s;
+    transform: translate(0vmin, 1vmin) rotate(-2deg);
 }
+
+/* Segunda parte: "MI LINDA" */
 .fireworks-text span:nth-child(7) { /* &nbsp; */
-    animation-delay: 1.4s;
-    transform: translate(10vmin, 6vmin) rotate(0deg);
+    animation-delay: 0.8s;
+    transform: translate(5vmin, 2vmin) rotate(0deg);
 }
 .fireworks-text span:nth-child(8) { /* M */
-    animation-delay: 1.6s;
-    transform: translate(15vmin, 8vmin) rotate(5deg);
+    animation-delay: 0.9s;
+    transform: translate(10vmin, 3vmin) rotate(4deg);
 }
 .fireworks-text span:nth-child(9) { /* I */
-    animation-delay: 1.8s;
-    transform: translate(20vmin, 10vmin) rotate(10deg);
+    animation-delay: 1.0s;
+    transform: translate(15vmin, 5vmin) rotate(8deg);
 }
 .fireworks-text span:nth-child(10) { /* &nbsp; */
-    animation-delay: 2.0s;
-    transform: translate(-22vmin, 12vmin) rotate(-12deg);
+    animation-delay: 1.1s;
+    transform: translate(-28vmin, 8vmin) rotate(-10deg);
 }
 .fireworks-text span:nth-child(11) { /* L */
-    animation-delay: 2.2s;
-    transform: translate(-17vmin, 10vmin) rotate(-8deg);
+    animation-delay: 1.2s;
+    transform: translate(-23vmin, 7vmin) rotate(-6deg);
 }
 .fireworks-text span:nth-child(12) { /* I */
-    animation-delay: 2.4s;
-    transform: translate(-12vmin, 8vmin) rotate(-4deg);
+    animation-delay: 1.3s;
+    transform: translate(-18vmin, 6vmin) rotate(-3deg);
 }
 .fireworks-text span:nth-child(13) { /* N */
-    animation-delay: 2.6s;
-    transform: translate(-7vmin, 6vmin) rotate(0deg);
+    animation-delay: 1.4s;
+    transform: translate(-12vmin, 5vmin) rotate(0deg);
 }
 .fireworks-text span:nth-child(14) { /* D */
-    animation-delay: 2.8s;
-    transform: translate(-2vmin, 5vmin) rotate(4deg);
+    animation-delay: 1.5s;
+    transform: translate(-6vmin, 4vmin) rotate(3deg);
 }
 .fireworks-text span:nth-child(15) { /* A */
-    animation-delay: 3.0s;
-    transform: translate(3vmin, 6vmin) rotate(0deg);
+    animation-delay: 1.6s;
+    transform: translate(0vmin, 5vmin) rotate(0deg);
 }
+
+/* Tercera parte: "FLOR" */
 .fireworks-text span:nth-child(16) { /* &nbsp; */
-    animation-delay: 3.2s;
-    transform: translate(8vmin, 8vmin) rotate(-4deg);
+    animation-delay: 1.7s;
+    transform: translate(5vmin, 6vmin) rotate(0deg);
 }
 .fireworks-text span:nth-child(17) { /* F */
-    animation-delay: 3.4s;
-    transform: translate(13vmin, 10vmin) rotate(-8deg);
+    animation-delay: 1.8s;
+    transform: translate(10vmin, 7vmin) rotate(-3deg);
 }
 .fireworks-text span:nth-child(18) { /* L */
-    animation-delay: 3.6s;
-    transform: translate(18vmin, 12vmin) rotate(-12deg);
+    animation-delay: 1.9s;
+    transform: translate(15vmin, 8vmin) rotate(-6deg);
 }
 .fireworks-text span:nth-child(19) { /* O */
-    animation-delay: 3.8s;
-    transform: translate(23vmin, 14vmin) rotate(-16deg);
+    animation-delay: 2.0s;
+    transform: translate(20vmin, 9vmin) rotate(-9deg);
 }
 .fireworks-text span:nth-child(20) { /* R */
-    animation-delay: 4.0s;
-    transform: translate(28vmin, 16vmin) rotate(-20deg);
+    animation-delay: 2.1s;
+    transform: translate(25vmin, 10vmin) rotate(-12deg);
 }
 
 
