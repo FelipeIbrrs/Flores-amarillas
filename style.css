@@ -2024,6 +2024,9 @@ body {
     --rot: 0;
     /* Aplicamos la animación que usará estas variables */
     animation: firework-letter-appears 1.5s ease-out forwards;
+    
+    /* ¡ESTA ES LA LÍNEA CLAVE! Anula la pausa de la animación */
+    animation-play-state: running !important;
 }
 
 /* --- Posición y retraso de animación para cada letra para formar el arco --- */
